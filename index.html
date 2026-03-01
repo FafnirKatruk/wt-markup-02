@@ -1,100 +1,112 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoService Pro</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <header class="page-header">
+    <header>
         <div class="container">
-            <nav class="site-nav">
-                <a href="./index.html" class="logo">
-                    AutoService Pro
-                </a>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-blue">Auto</span>Service Pro
+                    </a>
+                </div>
 
-                <ul class="list">
-                    <li><a href="#" class="link current">Про нас</a></li>
-                    <li><a href="#" class="link">Послуги</a></li>
-                    <li><a href="#" class="link">Команда</a></li>
-                    <li><a href="#" class="link">Контакти</a></li>
+                <ul>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#team">Команда</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
                 </ul>
             </nav>
-
-            <ul class="list">
-                <li><a href="mailto:info@car.com" class="link">info@car.com</a></li>
-                <li><a href="tel:+380680001100" class="link">+38 068 000 11 00</a></li>
-            </ul>
         </div>
     </header>
 
     <main>
 
-        <section class="hero section">
+        <section>
             <div class="container">
-                <h1 class="hero-title">
-                    Ми обслуговуємо авто, яким довіряють
-                </h1>
-                <p class="section-description">
-                    Якісний ремонт та діагностика автомобілів будь-якої складності
-                </p>
-                <a href="#" class="button primary">Записатись на сервіс</a>
+                <h1>МИ ОБСЛУГОВУЄМО АВТО, ЯКИМ ДОВІРЯЮТЬ</h1>
+                <button type="button">Записатись на сервіс</button>
             </div>
         </section>
 
-        <section class="section">
+        <section id="about">
             <div class="container">
-                <h2 class="section-title centered">
-                    Роботи, на яких спеціалізуємось
-                </h2>
-
-                <ul class="list work-list">
-                    <li class="item">
-                        <h3>Технічне обслуговування</h3>
-                        <p>Регламентне ТО, заміна масел, фільтрів та витратних матеріалів.</p>
+                <ul>
+                    <li>
+                        <h2>Технічне обслуговування</h2>
+                        <p>Регламентне ТО, заміна масел та фільтрів.</p>
                     </li>
-                    <li class="item">
-                        <h3>Шиномонтаж і балансування</h3>
-                        <p>Заміна шин, балансування та перевірка тиску коліс.</p>
+                    <li>
+                        <h2>Шиномонтаж і балансування</h2>
+                        <p>Заміна шин, балансування та перевірка тиску.</p>
                     </li>
-                    <li class="item">
-                        <h3>Ремонт двигуна та КПП</h3>
+                    <li>
+                        <h2>Ремонт двигуна та КПП</h2>
                         <p>Діагностика та ремонт двигунів і коробок передач.</p>
                     </li>
-                    <li class="item">
-                        <h3>Електроніка та діагностика</h3>
-                        <p>Комп’ютерна діагностика та ремонт електронних систем.</p>
+                    <li>
+                        <h2>Електроніка та діагностика</h2>
+                        <p>Комп’ютерна діагностика електронних систем автомобіля.</p>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section class="section">
+        <section id="services" class="works">
             <div class="container">
-                <h2 class="section-title centered">
-                    Наша команда
-                </h2>
+                <h2>Роботи на яких спеціалізуємось</h2>
 
-                <ul class="list">
-                    <li>
-                        <img src="./images/team1.jpg" alt="Головний механік">
+                <ul class="works-list">
+                    <li class="work-item">
+                        <img src="images/servis-gbo.jpg" alt="Технічне обслуговування">
+                    </li>
+
+                    <li class="work-item">
+                        <img src="images/engine-repair.jpg" alt="Ремонт двигуна">
+                    </li>
+
+                    <li class="work-item">
+                        <img src="images/image.jpg" alt="Діагностика авто">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="team" class="team">
+            <div class="container">
+                <h2>Наша команда</h2>
+
+                <ul class="team-list">
+                    <li class="team-member">
+                        <img src="images/team1.jpg" alt="Григорій Форіз">
                         <h3>Григорій Форіз</h3>
                         <p>Головний механік</p>
                     </li>
-                    <li>
-                        <img src="./images/team2.jpg" alt="Діагност">
+
+                    <li class="team-member">
+                        <img src="images/team2.jpg" alt="Ілля Абрамович">
                         <h3>Ілля Абрамович</h3>
                         <p>Діагност</p>
                     </li>
-                    <li>
-                        <img src="./images/team3.jpg" alt="Майстер ходової">
+
+                    <li class="team-member">
+                        <img src="images/team3.jpg" alt="Ігор Коваленко">
                         <h3>Ігор Коваленко</h3>
                         <p>Майстер ходової</p>
                     </li>
-                    <li>
-                        <img src="./images/team4.jpg" alt="Менеджер сервісу">
+
+                    <li class="team-member">
+                        <img src="images/team4.jpg" alt="Михайло Степаненко">
                         <h3>Михайло Степаненко</h3>
                         <p>Менеджер сервісу</p>
                     </li>
@@ -102,46 +114,24 @@
             </div>
         </section>
 
-        <section class="section">
-            <div class="container">
-                <h2 class="section-title centered">
-                    Потрібен надійний автосервіс?
-                </h2>
-                <p class="section-description">
-                    Зв’яжіться з нами та запишіться на обслуговування вже сьогодні
-                </p>
-
-                <a href="#" class="button primary">Записатись</a>
-                <a href="#" class="button secondary">Контакти</a>
-            </div>
-        </section>
-
     </main>
 
-    <footer class="section no-padding">
+    <footer id="contacts">
         <div class="container">
-            <ul class="list">
-                <li><a href="#" class="link">Послуги</a></li>
-                <li><a href="#" class="link">Про компанію</a></li>
-                <li><a href="#" class="link">Партнери</a></li>
-            </ul>
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-blue">Auto</span>Service Pro
+                </a>
+            </div>
 
-            <a href="./index.html" class="logo">
-                AutoService Pro
-            </a>
-
-            <ul class="list social">
-                <li><a href="#" class="link">Facebook</a></li>
-                <li><a href="#" class="link">Instagram</a></li>
-                <li><a href="#" class="link">Telegram</a></li>
-            </ul>
-
-            <p class="copyright">
-                &#169; AutoService Pro, 2026. Всі права захищені.
-            </p>
+            <address>
+                <p>м. Харків, вул. Ярослава Мудрого, 18</p>
+                <a href="mailto:info@car.com">info@car.com</a><br>
+                <a href="tel:+380680001100">+380680001100</a>
+            </address>
         </div>
     </footer>
 
 </body>
-</html>
 
+</html>
